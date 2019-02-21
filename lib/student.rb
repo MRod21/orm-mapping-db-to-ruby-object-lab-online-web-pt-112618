@@ -45,7 +45,7 @@ class Student
       SELECT name FROM students WHERE grade <= 11
       SQL
 
-      DB[:conn].execute(sql).first
+      DB[:conn].execute(sql)
   end
   
   def save
